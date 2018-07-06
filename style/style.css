@@ -1,0 +1,52 @@
+@font-face{
+	font-family:"Century Gothic";
+	src:url(../fontes/GOTHIC.ttf)
+}
+@font-face{
+	font-family:"Century Gothic Bold";
+	src:url(../fontes/GOTHICB.ttf)
+}
+
+@font-face{
+	font-family:"Century Gothic Italic";
+	src:url(../fontes/GOTHICI.ttf)
+}
+@font-face{
+	font-family:"Century Gothic Bold Italic";
+	src:url(../fontes/GOTHICBI.ttf)
+}
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+
+}
+body{
+	overflow-x:hidden;
+	background-image:url(../imagens/bgmenor.JPG);
+	background-repeat:repeat;
+}
+section{
+	height:100vh;
+	width:100%;
+	position:relative;
+	margin:auto;
+
+}
+
+.coming{
+	width:600px;
+	height:100vh;
+	margin:auto;
+	position:relative;
+	vertical-align:middle;
+	text-align:center;
+}
+.coming img{
+	margin:auto;
+	margin-top:33vh;
+	max-width:600px;
+	width:60vw;
+}
